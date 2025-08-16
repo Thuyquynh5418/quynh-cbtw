@@ -1,6 +1,6 @@
 // import { test, expect } from '@playwright/test';
 import { test, expect} from '../../fixtures/auth.fixtures';
-import { getUser } from '../../utils/userHelper';
+import { getUser } from '../../utils/user-helper';
 import { z } from 'zod';
 import { get } from 'http';
 

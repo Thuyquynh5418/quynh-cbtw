@@ -1,5 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
-import { getEnvConfig } from './utils/envHelper';
+import { getEnvConfig } from './utils/env-helper';
 
 const env = process.env.ENV || 'test';
 const config = getEnvConfig(env);

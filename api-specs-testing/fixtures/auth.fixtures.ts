@@ -1,6 +1,6 @@
 import { test as baseTest, expect } from "@playwright/test";
-import { getEnvConfig } from '../utils/envHelper';
-import { login } from "../utils/loginHelper";
+import { getEnvConfig } from '../utils/env-helper';
+import { login } from "../utils/login-helper";
 
 const env = process.env.ENV || 'test';
 const config = getEnvConfig(env);

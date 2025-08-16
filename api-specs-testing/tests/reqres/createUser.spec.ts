@@ -1,5 +1,5 @@
 import { test, expect} from '../../fixtures/auth.fixtures';
-import { createUser } from '../../utils/userHelper';
+import { createUser } from '../../utils/user-helper';
 import { z } from 'zod';
 
 const userTestData = require('../../test-data/user.json');
@@ -40,7 +40,7 @@ test('Verify create user successfully successfully with missing job field', asyn
 test('Verify that create user successfully with empty body', async ({ request, token }) => {
     const userData = {};
 
-    //Post request to create user without token
+    //Post request to create user
     const {response, responseBody} = await createUser(request, token, userData);
 
     // Assert

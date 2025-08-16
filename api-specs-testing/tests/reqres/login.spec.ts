@@ -1,5 +1,5 @@
 import { test, expect} from '../../fixtures/auth.fixtures';
-import { login } from '../../utils/loginHelper';
+import { login } from '../../utils/login-helper';
 
 const loginTestData = require('../../test-data/login.json');
 

@@ -1,5 +1,5 @@
 import { test, expect } from '../../fixtures/auth.fixtures';
-import { getUser, createUser, deleteUser, updateUser } from '../../utils/userHelper';
+import { getUser, createUser, deleteUser, updateUser } from '../../utils/user-helper';
 import { z } from 'zod';
 
 const userTestData = require('../../test-data/user.json');

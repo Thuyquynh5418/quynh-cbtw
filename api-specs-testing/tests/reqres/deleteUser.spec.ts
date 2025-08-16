@@ -1,5 +1,5 @@
 import { test, expect } from '../../fixtures/auth.fixtures';
-import { deleteUser } from '../../utils/userHelper';
+import { deleteUser } from '../../utils/user-helper';
 
 test('Verify that delete existing user successfully', async ({ request, token }) => {
     const userId = 2; 
